@@ -1,0 +1,49 @@
+body {
+    background-color: #f5ebdc;
+}
+
+.row {
+    margin: 3%;
+    bottom: -5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    position: relative;
+}
+
+.column {
+    flex: 24%;
+    max-width: 24%;
+    padding: 2px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 80%;
+    height:80%;
+    margin: 2.5%;
+    border-radius: 15px;
+}
+
+.texto {
+    font-family: fantasy;
+    font-size: 18px;
+    font-weight: bolder;
+    color: brown;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 49%;
+        max-width: 49%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+} 
+

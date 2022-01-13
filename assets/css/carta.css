@@ -1,0 +1,280 @@
+
+
+    .menu {
+        display: block;
+        width: 42%;
+        float: center;
+        margin-block-end: 12px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+
+    #carta {
+        font-weight: bolder;
+        margin: 1em;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        border: 2.5px double;
+        border-color: brown;
+        color: brown;
+    }
+
+    #especialidad {
+        text-align: center;
+        width: 200px;
+        margin-left: 1em;
+        margin-top: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        border: 2px dashed;
+        border-color: burlywood;
+        font-weight: bolder;
+        color: brown;
+    }
+
+    #menuprimero {
+        text-align: center;
+        margin-left: 1em;
+        color: white;
+        font-weight: bolder;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid;
+        border-color: burlywood;
+        width: 250px;
+        background-color: burlywood;
+    }
+
+    #hamburguesa {
+        float: center;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        font-weight: bolder;
+        color: brown;
+        margin: 0.5em;
+    }
+
+    .menu img {
+        margin-left: 1em;
+        border-radius: 10%;
+        width: 330px;
+        height: 159px;
+    }
+
+
+    #menusegundo {
+        float: center;
+        text-align: center;
+        margin-left: 1em;
+        color: white;
+        font-weight: bolder;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid;
+        border-color: burlywood;
+        width: 250px;
+        background-color: burlywood;
+    }
+
+    #cajasegundo {
+        float: center;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        color: brown;
+        font-weight: bolder;
+        margin: 0.3em;
+    }
+
+    #roquefort img{
+        margin-right: 1em;
+        width: 330px;
+        height: 159px;
+        border-radius: 10%;
+        float: center;
+
+    }
+
+
+@media screen and (max-width:600px) {
+    .menu {
+        width: 100%;
+        height: 100%;
+        background-color: #ecd3ad;
+    }
+
+    #carta {
+        font-weight: bolder;
+        margin: 1em;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        border: 1.5px double;
+        border-color: brown;
+        color: brown;
+    }
+
+    #especialidad {
+        text-align: center;
+        width: 200px;
+        margin-left: 1em;
+        margin-top: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        border: 2px dashed;
+        border-color: burlywood;
+        font-weight: bolder;
+        color: brown;
+    }
+
+    #menuprimero {
+        text-align: center;
+        margin-left: 1em;
+        color: white;
+        font-weight: bolder;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid;
+        border-color: burlywood;
+        width: 250px;
+        background-color: burlywood;
+    }
+
+    #hamburguesa {
+        float: left;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        font-weight: bolder;
+        color: brown;
+        margin: 0.5em;
+    }
+
+    .menu img {
+        margin-left: 1em;
+        border-radius: 10%;
+        width: 270px;
+        height: 120px;
+    }
+
+    #menusegundo {
+        float: right;
+        text-align: center;
+        margin-right: 1em;
+        color: white;
+        font-weight: bolder;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid;
+        border-color: burlywood;
+        width: 250px;
+        background-color: burlywood;
+    }
+
+    #cajasegundo {
+        float: right;
+        text-align: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        color: brown;
+        font-weight: bolder;
+        margin: 0.3em;
+    }
+    
+    #roquefort img {
+        float: right;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .menu {
+        width: 100%;
+        height: 100%;
+        background-color: #ecd3ad;
+    }
+
+    #carta {
+        font-weight: bolder;
+        margin: 1em;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        border: 1.5px double;
+        border-color: brown;
+        color: brown;
+    }
+
+    #especialidad {
+        text-align: center;
+        width: 200px;
+        margin-left: 1em;
+        margin-top: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        border: 2px dashed;
+        border-color: burlywood;
+        font-weight: bolder;
+        color: brown;
+    }
+
+    #menuprimero {
+        text-align: center;
+        margin-left: 1em;
+        color: white;
+        font-weight: bolder;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid;
+        border-color: burlywood;
+        width: 250px;
+        background-color: burlywood;
+    }
+
+    #hamburguesa {
+        float: left;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        font-weight: bolder;
+        color: brown;
+        margin: 0.5em;
+    }
+
+    .menu img {
+        margin-left: 1em;
+        border-radius: 10%;
+        width: 270px;
+        height: 120px;
+    }
+
+    #menusegundo {
+        float: right;
+        text-align: center;
+        margin-right: 1em;
+        color: white;
+        font-weight: bolder;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid;
+        border-color: burlywood;
+        width: 250px;
+        background-color: burlywood;
+    }
+
+    #cajasegundo {
+        float: right;
+        text-align: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        color: brown;
+        font-weight: bolder;
+        margin: 0.3em;
+    }
+    
+    #roquefort img {
+        float: right;
+    }
+}

@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="assets/img/comida china.png" type="image/x-icon">
+    <title>Reserva</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reserva.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/header.css">
+</head>
+
+<body>
+    <header>
+        <div id="headerr">
+            <img id="logo" src="assets/img/comida china.png" usemap="#logomap">
+            <img id="home" src="assets/img/home.png" usemap="#homemap">
+            <img id="nombree" src="assets/img/nombre.png" usemap="#nombreemap">
+            <input type="search" name="buscaComida" class="buscaComida">
+        </div>
+
+
+        <nav id="menu">
+            <a href="carta.html">Menu</a>
+            <a href="reserva.html" class="enlaceColor">Reserva</a>
+            <a href="informacion.html">Contacto</a>
+            <a href="galeria.html">Galeria</a>
+            <div class="animacion start-home"></div>
+        </nav>
+    </header>
+    <map name="logomap">
+        <area shape="circle" coords="67,73,57" alt="inicio" href="index.html">
+    </map>
+    <map name="homemap">
+        <area shape="rect" coords="10,10,100,100" alt="inicio" href="index.html">
+    </map>
+    <map name="nombreemap">
+        <area shape="rect" coords="10,10,800,300" alt="nombreP" href="index.html">
+    </map>
+    <form action="" id="formu">
+        <div class="row">
+            <div class="col-25">
+                <label for="fname">Nombre</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Apellidos</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="telefono">Teléfono</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="ltelefono" placeholder="Tu teléfono..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="email">Correo electrónico</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lemail" placeholder="Tu correo..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="email">Numero de comensales</label>
+            </div>
+            <div class="col-75">
+                <input type="number" id="lnum">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="email">Fecha reserva</label>
+            </div>
+            <div class="col-75">
+                <input type="date" id="lfecha">
+            </div>
+        </div><br>
+        <div class="row">
+            <input type="submit" value="Solicitar reserva" id="boton">
+        </div>
+    </form>
+    </div>
+    <footer class="piecompleto">
+        <div class="piederecho">
+            <img src="assets/img/facebook.png" alt="">
+            <img src="assets/img/instagram.png" alt="">
+            <img src="assets/img/whatsapp.png" alt="">
+
+        </div>
+        <div class="pieizquierdo">
+            <p class="linksdepies">
+                <a class="link-1" href="index.html">Volver al inicio</a>
+                <a href="miembros.html">Sobre nosotros</a>
+                <a href="informacion.html">Contacto</a>-TermsFeed © 2021 - 2032
+
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+* {
+    font-family: Roboto;
+}
+
+.piecompleto {
+    background-color: #ff8732;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #ff8732;
+    border-radius: 7px;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+}
+
+.piecompleto .pieizquierdo p {
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+/* Footer links */
+
+.piecompleto p.linksdepies {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+    text-align: center;
+}
+
+.piecompleto p.linksdepies a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+.piecompleto .linksdepies a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.piecompleto .linksdepies .link-1:before {
+    content: none;
+}
+
+.piecompleto .piederecho {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+.piecompleto .piederecho a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition: all .25s;
+}
+
+.piecompleto .piederecho a:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.piecompleto p.linksdepies a:hover {
+    text-decoration: underline;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+    .piecompleto .pieizquierdo,
+    .piecompleto .piederecho {
+        text-align: center;
+    }
+    .piecompleto .piederecho {
+        float: none;
+        margin: 0 auto 20px;
+    }
+    .piecompleto .pieizquierdo p.linksdepies {
+        line-height: 1.8;
+    }
+}
