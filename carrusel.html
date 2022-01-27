@@ -17,7 +17,7 @@
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
         <div class="carousel-inner" role="listbox">
-
+            <!-- Con la clase "data-bs-interval" definimos el intervalo que va a tener cada imagen del carrousel-->
             <div class="carousel-item active" data-bs-interval="3000">
                 <div class="img-container">
                     <img src="assets/img/banner.jpeg">
@@ -42,18 +42,26 @@
                 </div>
             </div>
         </div>
+        <!-- La clase "data-bs-target" hace que los botones de siguiente o anterior apunten al carrousel que hemos
+        definido arriba "myCarousel"-->
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+      <span class="visually-hidden">Anterior</span>
     </button>
         <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+      <span class="visually-hidden">Siguiente</span>
     </button>
     </div>
 
+    <!-- Se crea una fila que es donde vamos a colocar los videos y una columna que vamos adaptando en función del tamaño
+    de la pantalla así como el espacio que ocupa el vídeo. La clase "sinpadding" es para quitar los espacios
+  en blanco que se crean entre las columnas -->
     <div class="row sinpadding">
+        <!-- Ocupa la mitad del espacio en pantallas grandes y todo el espacio en pantallas de movil-->
         <div class="col-xl-6 col-lg-6 col-md-6 col-xs-12">
+            <!-- La clase ratio nos permite administrar las proporciones de contenido externo,
+            en este caso vídeos a un formato de 16:9-->
             <div class="ratio ratio-16x9">
                 <iframe src="https://www.youtube.com/embed/V5ZC1ojCtyk" title="YouTube video" allowfullscreen></iframe>
             </div>

@@ -9,9 +9,10 @@
     height: auto
 }
 
-.size {
-    width: 50%;
-}
+
+/**
+Quitamos los espacios de todas las clases que empiezen por "col-"
+*/
 
 .sinpadding [class*="col-"] {
     padding: 0;
