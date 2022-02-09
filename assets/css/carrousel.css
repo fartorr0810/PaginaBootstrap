@@ -76,6 +76,13 @@ Quitamos los espacios de todas las clases que empiezen por "col-"
     text-decoration: underline;
 }
 
+.margen1{
+    margin: 1vw;
+}
+
+.margenleft1{
+    margin-left: 1vw;
+}
 
 /* .li.active>a {
     background-color: brown;
