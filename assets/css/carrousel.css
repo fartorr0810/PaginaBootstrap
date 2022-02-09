@@ -17,3 +17,11 @@ Quitamos los espacios de todas las clases que empiezen por "col-"
 .sinpadding [class*="col-"] {
     padding: 0;
 }
+
+.margen1{
+    margin: 1vw;
+}
+
+.margenleft1{
+    margin-left: 1vw;
+}
