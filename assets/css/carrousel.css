@@ -1,3 +1,4 @@
+
 .img-container {
     width: 100%;
     height: 100%;
@@ -84,7 +85,3 @@ Quitamos los espacios de todas las clases que empiezen por "col-"
     margin-left: 1vw;
 }
 
-/* .li.active>a {
-    background-color: brown;
-    color: #fff;
-} */
