@@ -12,14 +12,14 @@
         <div class="row gx-0">
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-3 d-none 
             d-lg-block d-md-block d-sm-block d-xs-block">
-                <img class="col-lg-10 col-md-12 col-sm-12 col-xs-3 img-responsive" src="assets/img/comida-china.png" usemap="#logomap">
+                <img class="col-lg-10 col-md-12 col-sm-12 col-xs-3 img-responsive" alt="logo" src="assets/img/comida-china.png" usemap="#logomap">
             </div>
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-3 d-none 
             d-lg-block d-md-block d-sm-block d-xs-block">
-                <img class="col-lg-10 col-md-12 col-sm-12 col-xs-3 img-responsive" src="assets/img/home.png" usemap="#homemap">
+                <img class="col-lg-10 col-md-12 col-sm-12 col-xs-3 img-responsive" alt="home" src="assets/img/home.png" usemap="#homemap">
             </div>
             <div class="col-lg-7 col-md-8 col-sm-6 col-xs-3 col-12 text-center">
-                <img class="col-lg-4 col-md-4 col-sm-4 col-xs-3 col-6 img-responsive" src="assets/img/nombre.png" usemap="#nombreemap">
+                <img class="col-lg-4 col-md-4 col-sm-4 col-xs-3 col-6 img-responsive" alt="nombre pagina" src="assets/img/nombre.png" usemap="#nombreemap">
             </div>
             <div class="col-lg-3 col-md-2 col-sm-4 col-xs-3 col-12"><input class="form-control" type="text" placeholder="Search" aria-label="Search"></div>
         </div>
@@ -29,8 +29,9 @@
         d-lg-block d-md-block d-sm-block d-xs-block">
             <div class="row gx-0">
                 <li class="btn btn-lg col h3 bg-dark "><a class="nav-link h3 text-light" href="home.html">Home</a></li>
-                <li class="btn btn-lg col h3 bg-dark "><a class="nav-link h3 text-light" href="carta.html">Recetas</a></li>
+                <li class="btn btn-lg col h3 bg-dark"><a class="nav-link h3 text-light" style="text-decoration: none;" href="carta.html">Recetas</a></li>
                 <li class="btn btn-lg col h3 enlaceColor"><a class="nav-link h3 text-light" href="enviarReceta.html">Enviar Receta</a></li>
+
             </div>
         </ul>
 
@@ -42,16 +43,17 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item btn-warning">
-                        <a class="nav-link text-light h5 " href="#">Home</a>
+                    <li class="nav-item enlaceColor">
+                        <a class="nav-link text-light h5 " href="home.html">Home</a>
                     </li>
 
-                    <li class="nav-item btn-warning">
-                        <a class="nav-link text-light h5" style="text-decoration: none;" href="#">Recetas</a>
+                    <li class="nav-item bg-dark">
+                        <a class="nav-link text-light h5" style="text-decoration: none;" href="carta.html">Recetas</a>
                     </li>
-                    <li class="nav-item btn-warning">
-                        <a class="nav-link text-light h5" href="#">Envio Recetas</a>
+                    <li class="nav-item bg-dark">
+                        <a class="nav-link text-light h5" href="enviarReceta.html">Envio Recetas</a>
                     </li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -65,24 +67,17 @@
         <area shape="rect" coords="10,10,800,300" alt="nombreP" href="index.html">
     </map>
     <br>
-    <form method="post" action="#" onsubmit="return validar ()">
-        <div class="row">
-            <div>
-                <label for="name" class="margen1">Nombre</label>
-            </div>
-            <div>
-                <input type="text" class="form-control margenleft1" name="firstname" placeholder="Tu nombre..">
-            </div>
+    <form method="post" action="#" class="d-none 
+    d-lg-block d-md-block d-sm-block d-xs-block">
+        <div class="row gx-0">
+            <label for="name" class="">&nbsp Nombre</label>
+            <input type="text" class="form-control" name="firstname" placeholder="Tu nombre..">
         </div>
-        <div class="row">
-            <div>
-                <label for="email" class="margen1">Correo electrónico</label>
-            </div>
-            <div>
-                <input class="form-control margenleft1" placeholder="Tu correo..">
-            </div>
+        <div class="row gx-0">
+            <label for="email" class="">&nbsp Correo electrónico</label>
+            <input class="form-control" placeholder="Tu correo..">
         </div>
-        <div class="dropdown margen1">
+        <div class="dropdown">
             <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Categoria
             </button>
@@ -100,30 +95,116 @@
             <a class="dropdown-item" href="#">Recetas de Carnes</a>
             </div>
         </div>
-        <div class="row">
-            <div>
-                <label for="lname" class="margen1">Ingredientes</label>
-            </div>
-            <div>
-                <input class="form-control margenleft1" name="lastname" placeholder="Ingredientes..">
-            </div>
+        <div class="row gx-0">
+            <label for="lname" class="">&nbsp Ingredientes</label>
+            <input class="form-control" name="lastname" placeholder="Ingredientes..">
         </div>
 
-        <div class="row">
-            <div >
-                <label for="lname" class="margen1">Receta</label>
-            </div>
-            <div>
-                <input class="form-control margenleft1" name="lastname" placeholder="Receta..">
-            </div>
+        <div class="row gx-0">
+            <label for="lname" class="">&nbsp Receta</label>
+            <input class="form-control" name="lastname" placeholder="Receta..">
         </div>
         <br>
-        <div class="row">
+        <div class="row gx-0">
             <input type="submit" value="Enviar Receta" class="btn btn-dark col-6">
             <input type="reset" value="Cancelar" class="btn btn-danger col-6">
         </div>
     </form>
+    <form method="post" action="#" class="d-block 
+    d-lg-none d-md-none d-sm-none d-xs-none">
+        <div class="row gx-0">
+            <div class="col-4">
+            <label for="name">&nbsp Nombre: </label>
+            </div>
+            <div class="col-7">
+            <input type="text" class="form-control" name="firstname" placeholder="Tu nombre..">
+            </div>
+        </div>
+        <div class="row gx-0">
+            <div class="col-4">
+                <label for="email">&nbsp Correo electrónico: </label>
+            </div>
+            <div class="col-7">
+                <input class="form-control" placeholder="Tu correo..">
+            </div>
+            
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categoria
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Recetas de Arroz</a>
+            <a class="dropdown-item" href="#">Recetas de Dulces</a>
+            <a class="dropdown-item" href="#">Recetas de Pescados</a>
+            <a class="dropdown-item" href="#">Recetas de Patatas</a>
+            <a class="dropdown-item" href="#">Recetas de Salsas</a>
+            <a class="dropdown-item" href="#">Recetas de Ensaladas</a>
+            <a class="dropdown-item" href="#">Recetas de Mariscos</a>
+            <a class="dropdown-item" href="#">Recetas de Pan</a>
+            <a class="dropdown-item" href="#">Recetas de Pizzas</a>
+            <a class="dropdown-item" href="#">Recetas de Setas</a>
+            <a class="dropdown-item" href="#">Recetas de Carnes</a>
+            </div>
+        </div>
+        <div class="row gx-0">
+            <div class="col-4">
+            <label for="lname">&nbsp Ingredientes: </label>
+            </div>
+            <div class="col-7">
+            <input class="form-control" name="lastname" placeholder="Ingredientes..">
+            </div>
+        </div>
+
+        <div class="row gx-0">
+            <div class="col-4">
+            <label for="lname">&nbsp Receta: </label>
+            </div>
+            <div class="col-7">
+            <input class="form-control" name="lastname" placeholder="Receta..">
+            </div>
+        </div>
+        <br>
+        <div class="row gx-0">
+            <div class="col-12">
+            <input type="submit" value="Enviar Receta" class="btn btn-dark col-12">
+            </div>
+            <div class="col-12">
+            <input type="reset" value="Cancelar" class="btn btn-danger col-12">
+            </div>
+        </div>
+    </form>
     </div>
+    <br>
+
+</footer>
+<div class="sticky-container">
+    <ul class="sticky">
+        <li>
+            <img src="assets/img/facebook(1).png" width="32" height="32">
+            <p>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            </p>
+        </li>
+        <li>
+            <img src="assets/img/twitter.png" width="32" height="32">
+            <p>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </p>
+        </li>
+        <li>
+            <img src="assets/img/youtube.png" width="32" height="32">
+            <p>
+                <a href="http://www.youtube.com" target="_blank">Youtube</a>
+            </p>
+        </li>
+    </ul>
+</div> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
     <br>
     <!--Inicio del footer-->
     <footer>
