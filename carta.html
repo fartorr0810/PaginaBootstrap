@@ -87,24 +87,28 @@
        <!--Los apartados de la tabla, el primero está en active porque es la que se muestra por defecto--> 
         <div class="tab-content table-info">
             <div id="home" class="tab-pane fade show active">
-                <h3>Carne de Kobe</h3>
+                <h3><b>Carne de Kobe</b></h3>
                 <p>Carne 100% Kobe salpimentada y cocinada a fuego directo. Se sirve con unas gyozas de vegetales como guarnición y cuenco de salsa teriyaki</p>
-                <img class="rounded" src="assets/img/kobe4k.png" class="img-responsive" alt="Responsive image" width="70%" height="40%">
+                <img class="rounded" src="assets/img/kobe4k.png" class="img-responsive" alt="Carne de kobe" width="70%" height="40%" id="kobe-img" onclick="javascript:this.height=900;this.width=1200"
+                ondblclick="javascript:this.width=900;this.height=550">
             </div>
             <div id="menu1" class="tab-pane fade show">
-                <h3>Pizza Napolitana</h3>
+                <h3><b>Pizza Napolitana</b></h3>
                 <p>Pizza sobre masa con 70% de hidratación realizada con harina 0,0 ,levadura fresca y aceite de oliva. Cama de pomodoro con mozzarella de búfala y albahaca cocida al forno de leña</p>
-                <img class="rounded" src="assets/img/pizza4k.png" class="img-responsive" alt="Responsive image" width="70%" height="40%">
+                <img class="rounded" src="assets/img/pizza4k.png" class="img-responsive" alt="Pizza napolitana" width="70%" height="40%" id="pizza-img" onclick="javascript:this.height=900;this.width=1200"
+                ondblclick="javascript:this.width=900;this.height=550">
             </div>
             <div id="menu2" class="tab-pane fade show">
-                <h3>Arroz con curry</h3>
+                <h3><b>Arroz con curry</b></h3>
                 <p>Arroz integral cocinado con especias orientales , toque al curry y carne de pollo marinada en salsa de yogur</p>
-                <img class="rounded" src="assets/img/curry4k.png" class="img-responsive" alt="Responsive image" width="70%" height="40%">
+                <img class="rounded" src="assets/img/curry4k.png" class="img-responsive" alt="Arroz con curry" width="70%" height="40%" id="arroz-img" onclick="javascript:this.height=900;this.width=1200"
+                ondblclick="javascript:this.width=900;this.height=550">
             </div>
             <div id="menu3" class="tab-pane fade show">
-                <h3>Costillar barbacoa</h3>
+                <h3><b>Costillar barbacoa</b></h3>
                 <p>Corte de la mejor selección de vacuno marinado 12 horas y luego hecho en el grill directamente bañado en salsa barbacoa-Jack&Daniels</p>
-                <img class="rounded" src="assets/img/bbq4k.png" class="img-responsive" alt="Responsive image" width="70%" height="40%">
+                <img class="rounded" src="assets/img/bbq4k.png" class="img-responsive" alt="Costillar barbacoa" width="70%" height="40%" id="bbq-img" onclick="javascript:this.height=900;this.width=1200"
+                ondblclick="javascript:this.width=900;this.height=550">
             </div>
         </div>
     </div>
@@ -183,5 +187,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 
 </body>
+<script src="assets/js/jsCarta.js"></script>
+
 
 </html>
